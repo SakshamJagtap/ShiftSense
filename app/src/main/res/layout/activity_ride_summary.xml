@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RIDE SCORE" android:textColor="#AAAAAA" android:textSize="18sp" />
+    <TextView android:id="@+id/txtFinalScore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100" android:textColor="#00FF66" android:textSize="80sp" android:textStyle="bold" />
+    <TextView android:id="@+id/txtFeedback" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:gravity="center" android:textColor="#FFFFFF" android:textSize="16sp" />
+
+    <Button android:id="@+id/btnDone" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="40dp" android:backgroundTint="#333333" android:text="FINISH" android:textColor="#FFFFFF" />
+</LinearLayout>
